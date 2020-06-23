@@ -1,4 +1,5 @@
-
+// Ideal: depending on choice of answer, wrong or not, points are added or time is reduced
+	//all of which accumulates on the highscore pg which displays the information
 // variables 
 	var score= [];
 	var scoreScreen = [];
@@ -28,10 +29,10 @@ function checkAnswer() {
 		// let the player know they're correct
 
 	// check if we've run out of questions
-		// yes - end game
-		// no - get next question
+		// yes then end game
+		// no then move onto the next next question
 }
 
-// Whell all questions are answered and/or the timer reaches 0 it is game over 
+// All questions are answered and/or the timer reaches 0 = game over 
 
-// Then can save my initials and score 
+//  save my initials and score 
