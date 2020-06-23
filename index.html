@@ -12,14 +12,42 @@
 
 <body>
 
-  <p>
-      <!-- Center the button  -->
-    <button type="button" class="btn btn-primary btn-lg">Start</button>
-  </p>
+    <p>
+         <div class="startBtn">
+             <!-- Center the button  -->
+             <p style="text-align: center">
+                <button type="button" class="btn btn-primary btn-lg">Start</button>
+            </p>
+        </div>
+    </p>
+
+    <p2>
+        <div class="choices">
+            <button type="button" class="btn btn-info">A</button>
+            <button type="button" class="btn btn-info">B</button>
+            <button type="button" class="btn btn-info">C</button>
+            <button type="button" class="btn btn-info">D</button>
+        </div>
+    </p2>
     
 
-  <h1>
-      <script type="text/javascript" src="questionsAnswers.js"></script>
-  </h1>
+    <div class="questionArea">
+        <h1>
+            <script type="text/javascript" src="questionsAnswers.js"></script>
+        </h1>
+    </div>
+
+    <div class="highScores">
+        <link rel="import" href="highscore.html">
+    </div>
+
+    <div class="timer">
+        <p style="text-align: right">
+            Timer
+        </p>
+        <p2 style="text-align: right;">
+            <div class="seconds">60</div>
+        </p2>
+    </div>
 </body>
 </html>

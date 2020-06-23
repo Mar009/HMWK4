@@ -1,5 +1,7 @@
 // array for quiz questions, choices & answers
 
+
+
 var questionsAnswers = [
     {
         q: "Arrays in JS can be used to store _____.",
