@@ -17,12 +17,7 @@ function startQuiz(){
         startTimer();
         getQuestion();
     });
-};
-
-// get the question/answer object from your questions array based on the current question index
-	
-			// for loop that goes through the answer choices
-				// creates a button
+};	
 
 				// set text content of button to be choice
                 // append button to the DOM 
@@ -40,6 +35,7 @@ function getQuestion(){
     }
 };
 
+//Countdown begins from ____
 function startTimer(){
     seconds= setInterval(function(){
     seconds --;
